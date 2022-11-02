@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 /**
- * Class responsible for abaling sharing data 
+ *.
+ * Class responsible for abaling sharing data via an ArrayList
  * @author user
- *
  */
 public class SharedData 
 {
@@ -27,7 +27,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	public int[] getArray() 
+	public ArrayList<Integer> getArray() 
 	{
 		return array;
 	}
@@ -47,3 +47,5 @@ public class SharedData
 	}
 
 }
+
+
