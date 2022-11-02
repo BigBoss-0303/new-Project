@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /** Test Class to check threads 
  * @author Elad Fisher
- *
+ *h
  */
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
