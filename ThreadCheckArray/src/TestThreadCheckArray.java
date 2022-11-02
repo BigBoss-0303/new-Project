@@ -19,7 +19,7 @@ public class TestThreadCheckArray {
 			
 			for (int index = 0; index < num; index++)
 				// array.add
-				array.add(index, input.nextInt());;
+				array.add(input.nextInt());;
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
