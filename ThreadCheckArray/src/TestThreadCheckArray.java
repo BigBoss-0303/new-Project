@@ -14,7 +14,7 @@ public class TestThreadCheckArray {
 			int num  = input.nextInt();
 			// arraylist -> change in all classes
 			// integer -> no size
-			ArrayList<Integer> array = null;
+			ArrayList<Integer> array = new ArrayList<Integer>();
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < array.size(); index++)
