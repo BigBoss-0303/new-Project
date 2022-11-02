@@ -1,3 +1,9 @@
+/**
+ * 
+ * @author user
+ *
+ */
+
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;
