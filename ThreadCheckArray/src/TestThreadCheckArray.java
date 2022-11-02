@@ -17,7 +17,7 @@ public class TestThreadCheckArray {
 			ArrayList<Integer> array = new ArrayList<Integer>();
 			System.out.println("Enter numbers for array");
 			
-			for (int index = 0; index < num-1; index++)
+			for (int index = 0; index < num; index++)
 				// array.add
 				array.add(index, input.nextInt());;
 			
