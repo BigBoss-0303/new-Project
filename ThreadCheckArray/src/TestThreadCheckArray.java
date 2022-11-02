@@ -1,5 +1,11 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 // hii
+
+/** Test Class to check threads 
+ * @author Elad Fisher
+ *
+ */
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
@@ -8,12 +14,12 @@ public class TestThreadCheckArray {
 			int num  = input.nextInt();
 			// arraylist -> change in all classes
 			// integer -> no size
-			int [] array = new int[num];
+			ArrayList<Integer> array;
 			System.out.println("Enter numbers for array");
 			
-			for (int index = 0; index < num; index++)
+			for (int index = 0; index < array.size(); index++)
 				// array.add
-				array[index] = input.nextInt();
+				array.add(input.nextInt());
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
